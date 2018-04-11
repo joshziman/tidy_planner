@@ -1,0 +1,71 @@
+body {
+}
+
+#classic-body {
+  background: #cccccc !important;
+}
+
+
+
+
+.row-headers-background {
+  display: none !important;
+}
+
+
+
+
+
+
+
+
+
+body {
+  height: 60vh;
+  overflow: scroll;
+}
+.waffle-grid-container {
+  max-height: 50vh;
+}
+.grid-bottom-bar {
+  bottom: 50vh;
+}
+iframe {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 40vh;
+  border: 0;
+}
+
+
+.addRowsWidget-ltr {
+    display: none !important;
+}
+
+
+
+div[role="presentation"] > div[role="row"]:nth-of-type(2){
+  display: none !important;
+}
+
+
+.sheet {
+  width: 100%;
+  height: 50%;
+  border: 0;
+}
+
+
+.calendar {
+  width: 100%;
+  height: 50%;
+  border: 0;
+}
+
+
+iframe body {
+  display: none !important;
+}
